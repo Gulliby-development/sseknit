@@ -1,0 +1,14 @@
+[package]
+name = "sseknit"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Assemble streamed model output from server-sent events."
+
+[lib]
+name = "sseknit"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sseknit"
+path = "src/main.rs"
